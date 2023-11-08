@@ -12,8 +12,6 @@ The dataset 'engine_data.csv' contains seven columns:
 
 The project compares the performance of logistic regression, decision tree, random forest & XGBoost models upon parameter tuning in order to select the best model for the dataset.
 
-The predictions can be made by running engine_predict_test.py file. 
-
 The model has been deployed using flask during production and waitress for deployment.    
 
 The same has been containarized using docker.
