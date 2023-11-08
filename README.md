@@ -10,7 +10,7 @@ The dataset 'engine_data.csv' contains seven columns:
 
 {'Engine rpm', 'Lub oil pressure', 'Fuel pressure', 'Coolant pressure',	'lub oil temp', 'Coolant temp',	'Engine Condition'}
 
-The project compares the performance of logistic regression, decision tree, random forest & XGBoost models upon parameter tuning in order to select the best model for the dataset. Kindly find 'Midterm Project - Automotive Vehicles Engine Health.ipynb' to evaluate the project method.
+The project compares the performance of logistic regression, decision tree, random forest & XGBoost models upon parameter tuning in order to select the best model for the dataset.
 
 The predictions can be made by running engine_predict_test.py file. 
 
