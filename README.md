@@ -6,10 +6,13 @@ The dataset allows the user to do an engine health status check and build a pred
 
 ## About the project
 
+The dataset 'engine_data.csv' contains seven columns:
 
-After analyzing different algorithms, fine tuning them and validating them, final model was selected to be XG Boost and has been trained since XG Boost gave the best validation accuracy and AUC for the predictions.    
+{'Engine rpm', 'Lub oil pressure', 'Fuel pressure', 'Coolant pressure',	'lub oil temp', 'Coolant temp',	'Engine Condition'}
 
-The predictions can be made by running engine_predict_test.py file.    
+The project compares the performance of logistic regression, decision tree, random forest & XGBoost models upon parameter tuning in order to select the best model for the dataset. Kindly find 'Midterm Project - Automotive Vehicles Engine Health.ipynb' to evaluate the project method.
+
+The predictions can be made by running engine_predict_test.py file. 
 
 The model has been deployed using flask during production and waitress for deployment.    
 
