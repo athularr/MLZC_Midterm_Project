@@ -45,7 +45,7 @@ Alternatively, you can directly run it from the terminal :
 |---------|-------------------------------------------------------|
 |Dockerfile | file to build and run the docker image in your system|
 |engine_data.csv|data set used to train the models |
-|Midterm Project - Automotive Vehicles Engine Health.ipynb|For all the preprocessing, EDA, model                                        training,validation,correlation,feature importance analysis and tuning.
+|Midterm Project - Engine Health & Performance.ipynb|For all the preprocessing, EDA, model                                        training,validation,correlation,feature importance analysis and tuning.
 |predict.py|script to run the flask app|
 |train.py|script to train and save the final model|
 |engine_predict_test.py| file to print output response of the model.|
